@@ -348,7 +348,8 @@
     font-size: 0.9rem;
     padding: 8px 10px;
   }
-
+}
+@media(max-width:769px){
   .category-list{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
